@@ -10,7 +10,7 @@ class Teacher {
 }
 
 // Child class
-class Student extends Teacher {
+class Students extends Teacher {
     String rollNo;
 }
 
@@ -23,14 +23,15 @@ public class College {
         System.out.println("Teacher name: " + T.name);
 
         // Student object
-        Student S = new Student();
-        S.name = "Akshaya";
+        Students S = new Students();
+        S.name = "Rani";
         System.out.println("Student name: " + S.name);
 
-        S.rollNo = "5T9";
+        S.rollNo = "5U0";
         System.out.println("Student Roll No: " + S.rollNo);
     }
 }
+
 
 Output :
 Teacher name: Praneetha
