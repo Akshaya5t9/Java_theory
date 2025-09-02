@@ -19,21 +19,21 @@ public class College {
     public static void main(String[] args) {
         // Teacher object
         Teacher T = new Teacher();
-        T.name = "Praneetha";
+        T.name = "Sangeetha";
         System.out.println("Teacher name: " + T.name);
 
         // Student object
         Students S = new Students();
-        S.name = "Rani";
+        S.name = "Akshaya";
         System.out.println("Student name: " + S.name);
 
-        S.rollNo = "5U0";
+        S.rollNo = "5T9";
         System.out.println("Student Roll No: " + S.rollNo);
     }
 }
 
 
 Output :
-Teacher name: Praneetha
+Teacher name: Sangeetha
 Student name: Akshaya
 Student Roll No: 5T9
